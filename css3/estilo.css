@@ -1,0 +1,116 @@
+:root{
+    --blanco:#ffffff;
+    --oscuro:#212121;
+    --primario:#ffc107;
+    --secundario:#0097a7;
+    --gris:#757575;
+
+}
+html{
+    font-size: 62.5%;
+    background-image:url(../IMAGENES/fondo3.jpg);
+    
+}
+body{
+    font-size: 16px;
+}
+h1{
+    text-align: center;
+    color:blue;
+    font-size: 3.8rem;
+    
+}
+.contenedor{
+    width: 120rem;
+    margin-top: 0;
+    margin-right: auto;
+    margin-bottom: 0;
+    margin-left: auto;
+}
+.nav-bg{
+    background-color:var(--secundario);
+}
+.menu{
+   
+   display: flex;
+   justify-content: space-between; /*separa los apartados del menu*/
+}
+.menu a{
+    padding: 1rem;
+    color:var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.menu a:hover {  /*cambia de color al colocar el cursor encima del menu*/
+background-color: var(--primario);
+color:var(--oscuro);
+}
+
+.cajap{
+
+width: 80%;
+margin: auto;
+}
+p{
+    color: #212121;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 17px;
+    font-weight: normal;
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+footer{
+    text-align: center;
+}
+.logo img{
+  
+    width:150px;
+    height:67px;
+    float:left
+    
+
+}
+
+div iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.objetivo{
+    background-color: pink;
+    
+}
+.mision{
+    background-color: #ffc107;
+}
+
+.vision{
+    background-color: #ff7360;
+}
+
+.admin{
+    background-color: #d06aff;
+}
+.admin img{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.datos{
+    background-color: aqua;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.mapa{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
